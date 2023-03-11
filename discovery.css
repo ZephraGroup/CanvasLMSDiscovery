@@ -1,0 +1,29 @@
+body {
+    background-image: url('https://res.cloudinary.com/zephragroup/image/upload/v1675971774/2023/LMS/DiscoveryPage/LoginBackground_mpoufd.png');
+    font-family: Arial;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.boxbox {
+    margin: auto!important;
+    border: 3px solid #FFF;
+    border-radius: 20px;
+    padding: 10px 40px;
+    display: inline-block;
+    background-color: #562145;
+}
+
+.buttonbox {
+    margin: auto;
+    width: 250px;
+}
+
+.pure-button {
+    border-radius: 5px;
+    min-width: 250px;
+}
