@@ -1,12 +1,13 @@
 body {
-    background-image: url('https://cdn.zephragroup.com.au/LMSDiscovery/background.png');
-    font-family: Arial;
+    background-color: #4c34e5;
+    font-family: "Century Gothic", sans-serif;
 }
 
 .content {
     width: 100%;
     text-align: center;
     margin-top: 30px;
+    padding: 0 10px; /* Add padding for better mobile view */
 }
 
 .boxbox {
@@ -16,14 +17,17 @@ body {
     padding: 10px 40px;
     display: inline-block;
     background-color: #ff4747;
+    max-width: 90%; /* Ensure it fits within mobile screens */
 }
 
 .buttonbox {
     margin: auto;
-    width: 250px;
+    width: 100%;
+    max-width: 250px; /* Maintain a max width for larger screens */
 }
 
 .pure-button {
     border-radius: 5px;
-    min-width: 250px;
+    min-width: 100%; /* Make buttons full-width on mobile */
+    max-width: 250px; /* Maintain a max width for larger screens */
 }
